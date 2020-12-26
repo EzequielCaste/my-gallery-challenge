@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://ecaste-my-gallery.netlify.app/}">
+    <a href="https://ecaste-my-gallery.netlify.app/">
       Demo
     </a>
     <span> | </span>
