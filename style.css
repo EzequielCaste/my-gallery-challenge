@@ -107,9 +107,9 @@ a:hover {
   font-weight: 600;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 700px) {
   main {
-    width: 60%;
+    width: 90%;
     margin: 1.5rem auto;
   }
   .avatar img {
@@ -122,15 +122,26 @@ a:hover {
     font-size: var(--font-large);
   }
   .user-info {
-    margin: 2rem 0;
-    width: 35%;
+    width: 75%;
+    margin: 2rem 0;    
   }
   .info {
     padding: 7px;
-    width: 85px;
+    
     font-size: var(--font-large)
   }
   .info span:nth-child(1) {
     font-size: var(--font-md);
+  }
+}
+@media screen and (min-width: 710px) {
+  main {
+    max-width: 600px;
+    width: 60%;
+    margin: 1.5rem auto;
+  }
+  .user-info {
+    max-width: 265px;
+    width: 60%;  
   }
 }
